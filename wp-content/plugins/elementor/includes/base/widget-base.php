@@ -220,7 +220,7 @@ abstract class Widget_Base extends Element_Base {
 		$injection_point = $this->get_injection_point();
 
 		if ( null !== $injection_point ) {
-			return $injection_point['index'];
+			return $injection_point['index'] ?? false;
 		}
 
 		return count( $this->get_stack( false )['controls'] );

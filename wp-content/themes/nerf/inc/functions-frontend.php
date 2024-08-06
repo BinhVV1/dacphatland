@@ -58,7 +58,7 @@ if ( !function_exists('nerf_get_page_title') ) {
 			} elseif ( is_page() && $post->post_parent ) {
 				$title = get_the_title();
 			} elseif ( is_search() ) {
-				$title = sprintf(esc_html__('Search results for "%s"', 'nerf'), get_search_query());
+				$title = sprintf(esc_html__('Kết Quả Tìm Kiếm Cho "%s"', 'nerf'), get_search_query());
 			} elseif ( is_tag() ) {
 				$title = sprintf(esc_html__('Posts tagged "%s"', 'nerf'), single_tag_title('', false) );
 			} elseif ( is_author() ) {
@@ -162,7 +162,7 @@ if ( ! function_exists( 'nerf_breadcrumbs' ) ) {
 				}
 				echo trim($before) . get_the_title() . $after;
 			} elseif ( is_search() ) {
-				echo trim($before) . sprintf(esc_html__('Search results for "%s"','nerf'), get_search_query()) . $after;
+				echo trim($before) . sprintf(esc_html__('Kết Quả Tìm Kiếm Cho "%s"','nerf'), get_search_query()) . $after;
 			} elseif ( is_tag() ) {
 				echo trim($before) . sprintf(esc_html__('Posts tagged "%s"', 'nerf'), single_tag_title('', false)) . $after;
 			} elseif ( is_author() ) {

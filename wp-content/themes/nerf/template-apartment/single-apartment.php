@@ -29,7 +29,7 @@ get_header();
 									<?php nerf_render_breadcrumbs_simple(); ?>
 								</div>
 								<div class="ms-auto">
-									<a class="btn-readmore d-inline-flex align-items-center flex-wrap" href="<?php echo esc_url(get_post_type_archive_link('apartment')); ?>"> <i class="direction-circle d-flex align-items-center justify-content-center flaticon-up-right-arrow"></i> <?php echo esc_html__('SEE ALL APARTMENTS','nerf') ?></a>
+									<a class="btn-readmore d-inline-flex align-items-center flex-wrap" href="<?php echo esc_url(get_post_type_archive_link('apartment')); ?>"> <i class="direction-circle d-flex align-items-center justify-content-center flaticon-up-right-arrow"></i> <?php echo esc_html__('XEM THÊM','nerf') ?></a>
 
 								</div>
 							</div>

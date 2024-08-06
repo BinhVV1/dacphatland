@@ -9,13 +9,13 @@ if ( !function_exists ('nerf_custom_styles') ) {
 			<?php if ( nerf_get_config('main_color') != "" ) {
 				$main_color = nerf_get_config('main_color');
 			} else {
-				$main_color = '#C29F7B';
+				$main_color = '#6ABD45';
 			}
 
 			if ( nerf_get_config('main_hover_color') != "" ) {
 				$main_hover_color = nerf_get_config('main_hover_color');
 			} else {
-				$main_hover_color = '#191D23';
+				$main_hover_color = '#005388';
 			}
 
 			if ( nerf_get_config('text_color') != "" ) {
@@ -33,7 +33,7 @@ if ( !function_exists ('nerf_custom_styles') ) {
 			if ( nerf_get_config('link_hover_color') != "" ) {
 				$link_hover_color = nerf_get_config('link_hover_color');
 			} else {
-				$link_hover_color = '#C29F7B';
+				$link_hover_color = '#6ABD45';
 			}
 
 			if ( nerf_get_config('heading_color') != "" ) {

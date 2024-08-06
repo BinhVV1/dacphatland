@@ -15,7 +15,7 @@ if ( $title ) {
 ?>
 <div class="widget_search">
     <form action="<?php echo esc_url( home_url( '/' ) ); ?>" method="get">
-			<input type="text" placeholder="<?php esc_attr_e( 'Search...', 'nerf' ); ?>" name="s" class="apus-search form-control"/>
+			<input type="text" placeholder="<?php esc_attr_e( 'Tìm Kiếm...', 'nerf' ); ?>" name="s" class="apus-search form-control"/>
 			<?php if ( isset($post_type) && $post_type ): ?>
 				<input type="hidden" name="post_type" value="<?php echo esc_attr($post_type); ?>" class="post_type" />
 			<?php endif; ?>

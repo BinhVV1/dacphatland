@@ -12,7 +12,7 @@ $sidebar_configs = nerf_get_blog_layout_configs();
 
 $columns = nerf_get_config('blog_columns', 1);
 $bscol = floor( 12 / $columns );
-$checksidebar = (nerf_get_config('blog_single_layout') == 'main') ?'blog-only-main style-'.$layout:'has-sidebar';
+$checksidebar = (nerf_get_config('blog_single_layout') == 'main') ?'blog-only-main style-'.($layout ?? "") :'has-sidebar';
 nerf_render_breadcrumbs();
 ?>
 <section id="main-container" class="main-content <?php echo esc_attr($checksidebar); ?> <?php echo apply_filters('nerf_blog_content_class', 'container');?> inner">
@@ -31,7 +31,7 @@ nerf_render_breadcrumbs();
 						the_archive_description( '<div class="taxonomy-description">', '</div>' );
 					?>
 				</header><!-- .page-header -->
-				<div class="layout-posts-list">
+				<div class="layout-posts-list" style="grid-template-columns: repeat(2, minmax(0, 1fr)); display: grid; gap:20px">
 					<?php
 					// Start the Loop.
 					while ( have_posts() ) : the_post();

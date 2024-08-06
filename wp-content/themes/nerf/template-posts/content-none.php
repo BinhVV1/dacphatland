@@ -10,10 +10,10 @@
 <article id="post-0" class="post no-results not-found">
 	<div class="entry-content e-entry-content">
 		<h2 class="title-no-results">
-			<?php esc_html_e( 'Nothing Found', 'nerf' ) ?>
+			<?php esc_html_e( 'Chưa có dữ liệu cho mục này', 'nerf' ) ?>
 		</h2>
-		<div><?php esc_html_e( 'Try again please, use the search form below.', 'nerf' ); ?></div>
-		<?php get_search_form(); ?>
+		<div><?php esc_html_e( 'Xin Quý khách vui lòng quay lại sau!', 'nerf' ); ?></div>
+		<?php #get_search_form(); ?>
 	</div>
 	<!-- entry-content -->
 </article><!-- /article -->

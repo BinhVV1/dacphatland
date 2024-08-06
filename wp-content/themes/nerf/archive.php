@@ -68,7 +68,7 @@ if ( defined('NERF_DEMO_MODE') && NERF_DEMO_MODE ) {
 							}
 							?>
 						    <ul class="categories-list">
-								<li><a href="/blog">ALL</a></li>
+								<li><a href="/bat-dong-san">TẤT CẢ</a></li>
 							    <?php foreach ( $terms as $term ) { ?>
 							        <li><a href="<?php echo get_term_link($term); ?>" class="<?php echo esc_attr($term->term_id == $selected ? 'active' : ''); ?>"><?php echo esc_html($term->name); ?></a></li>
 							    <?php } ?>

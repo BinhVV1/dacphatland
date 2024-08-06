@@ -518,3 +518,8 @@ get_template_part( '/inc/custom-styles' );
 @ini_set( 'upload_max_size' , '64M' );
 @ini_set( 'post_max_size', '64M');
 @ini_set( 'max_execution_time', '300' );
+
+add_filter('site_transient_update_plugins', '__return_false');
+add_filter('site_transient_update_themes', '__return_false');
+// add_filter('use_block_editor_for_post', '__return_false', 10);
+// add_filter('use_block_editor_for_post_type', '__return_false', 10);

@@ -1,0 +1,181 @@
+﻿ID,Title,Content,Excerpt,Date,"Post Type",Permalink,"Image URL","Image Title","Image Caption","Image Description","Image Alt Text","Image Featured","Attachment URL","Danh mục",Thẻ,footnotes,dien-tich-mat-bang,_dien-tich-mat-bang,dien_tich_su_dung,_dien_tich_su_dung,dia-chi,_dia-chi,gia,_gia,giay_to,_giay_to,huong,_huong,_wp_page_template,_elementor_template_type,_elementor_version,_elementor_pro_version,giay-to,_giay-to,_encloseme,dien-tich-su-dung,_dien-tich-su-dung,inline_featured_image,_wp_old_date,_wp_trash_meta_status,_wp_trash_meta_time,_wp_desired_post_slug,_wp_trash_meta_comments_status,_wp_old_slug,dia_chi,_dia_chi,Status,"Author ID","Author Username","Author Email","Author First Name","Author Last Name",Slug,Format,Template,Parent,"Parent Slug",Order,"Comment Status","Ping Status","Post Modified Date"
+4450,"BÁN NHÀ 3 TẦNG MẶT TIỀN NGUYỄN THỊ PHƯƠNG, TRUNG TÂM TP ĐÔNG HÀ","<!-- wp:eedee/block-gutenslider {""gsBlockId"":""bayxs86hb"",""media"":[{""alt"":"""",""id"":""2716"",""link"":""http://dacphatland.com.vn/?attachment_id=2716"",""caption"":"""",""type"":""image"",""mime"":""image/jpeg"",""url"":""http://dacphatland.com.vn/wp-content/uploads/2023/03/blog12-1024x373.jpg"",""fullUrl"":""http://dacphatland.com.vn/wp-content/uploads/2023/03/blog12.jpg""},{""alt"":"""",""id"":""2715"",""link"":""http://dacphatland.com.vn/?attachment_id=2715"",""caption"":"""",""type"":""image"",""mime"":""image/jpeg"",""url"":""http://dacphatland.com.vn/wp-content/uploads/2023/03/blog11-1024x373.jpg"",""fullUrl"":""http://dacphatland.com.vn/wp-content/uploads/2023/03/blog11.jpg""},{""alt"":"""",""id"":""2714"",""link"":""http://dacphatland.com.vn/?attachment_id=2714"",""caption"":"""",""type"":""image"",""mime"":""image/jpeg"",""url"":""http://dacphatland.com.vn/wp-content/uploads/2023/03/blog10-1024x373.jpg"",""fullUrl"":""http://dacphatland.com.vn/wp-content/uploads/2023/03/blog10.jpg""},{""alt"":"""",""id"":""2670"",""link"":""http://dacphatland.com.vn/?attachment_id=2670"",""caption"":"""",""type"":""image"",""mime"":""image/jpeg"",""url"":""http://dacphatland.com.vn/wp-content/uploads/2023/03/blog9-1024x373.jpg"",""fullUrl"":""http://dacphatland.com.vn/wp-content/uploads/2023/03/blog9.jpg""},{""alt"":"""",""id"":""2669"",""link"":""http://dacphatland.com.vn/?attachment_id=2669"",""caption"":"""",""type"":""image"",""mime"":""image/jpeg"",""url"":""http://dacphatland.com.vn/wp-content/uploads/2023/03/blog8-1024x373.jpg"",""fullUrl"":""http://dacphatland.com.vn/wp-content/uploads/2023/03/blog8.jpg""}],""bgImageId"":""2716""} -->
+<!-- wp:eedee/block-gutenslide {""gsBlockId"":""efbxxuges"",""background"":{""backgroundType"":""image"",""backgroundColor"":""#eeeeee"",""backgroundOverlayImage"":"""",""backgroundOverlayVideo"":"""",""backgroundOverlayOpacity"":50,""backgroundGradient"":{},""backgroundImage"":{""alt"":"""",""id"":""2716"",""link"":""http://dacphatland.com.vn/?attachment_id=2716"",""caption"":"""",""type"":""image"",""mime"":""image/jpeg"",""url"":""http://dacphatland.com.vn/wp-content/uploads/2023/03/blog12-1024x373.jpg"",""fullUrl"":""http://dacphatland.com.vn/wp-content/uploads/2023/03/blog12.jpg""},""backgroundPosition"":""center center"",""backgroundRepeat"":""no-repeat"",""backgroundImageSize"":""cover"",""backgroundVideoSize"":""cover"",""customBackgroundColor"":"""",""hasParallax"":false,""backgroundFocalPoint"":{""x"":0.5,""y"":0.5},""backgroundVideoFocalPoint"":{""x"":0.5,""y"":0.5},""backgroundVideo"":{},""backgroundVideoMuted"":true,""backgroundVideoLoop"":true,""backgroundVideoPauseWhenInactive"":true,""backgroundVideoAutoplay"":true,""openPopover"":true,""mediaId"":""2716""}} -->
+<!-- wp:paragraph {""align"":""center"",""placeholder"":""Add slide content here…"",""className"":""gutenslider-content-initial"",""fontSize"":""larger""} -->
+<p class=""has-text-align-center gutenslider-content-initial has-larger-font-size""></p>
+<!-- /wp:paragraph -->
+<!-- /wp:eedee/block-gutenslide -->
+
+<!-- wp:eedee/block-gutenslide {""gsBlockId"":""zexey5c7q"",""background"":{""backgroundType"":""image"",""backgroundColor"":""#eeeeee"",""backgroundOverlayImage"":"""",""backgroundOverlayVideo"":"""",""backgroundOverlayOpacity"":50,""backgroundGradient"":{},""backgroundImage"":{""alt"":"""",""id"":""2715"",""link"":""http://dacphatland.com.vn/?attachment_id=2715"",""caption"":"""",""type"":""image"",""mime"":""image/jpeg"",""url"":""http://dacphatland.com.vn/wp-content/uploads/2023/03/blog11-1024x373.jpg"",""fullUrl"":""http://dacphatland.com.vn/wp-content/uploads/2023/03/blog11.jpg""},""backgroundPosition"":""center center"",""backgroundRepeat"":""no-repeat"",""backgroundImageSize"":""cover"",""backgroundVideoSize"":""cover"",""customBackgroundColor"":"""",""hasParallax"":false,""backgroundFocalPoint"":{""x"":0.5,""y"":0.5},""backgroundVideoFocalPoint"":{""x"":0.5,""y"":0.5},""backgroundVideo"":{},""backgroundVideoMuted"":true,""backgroundVideoLoop"":true,""backgroundVideoPauseWhenInactive"":true,""backgroundVideoAutoplay"":true,""openPopover"":true,""mediaId"":""2715""}} -->
+<!-- wp:paragraph {""align"":""center"",""placeholder"":""Add slide content here…"",""className"":""gutenslider-content-initial"",""fontSize"":""larger""} -->
+<p class=""has-text-align-center gutenslider-content-initial has-larger-font-size""></p>
+<!-- /wp:paragraph -->
+<!-- /wp:eedee/block-gutenslide -->
+
+<!-- wp:eedee/block-gutenslide {""gsBlockId"":""28ayapm0e"",""background"":{""backgroundType"":""image"",""backgroundColor"":""#eeeeee"",""backgroundOverlayImage"":"""",""backgroundOverlayVideo"":"""",""backgroundOverlayOpacity"":50,""backgroundGradient"":{},""backgroundImage"":{""alt"":"""",""id"":""2714"",""link"":""http://dacphatland.com.vn/?attachment_id=2714"",""caption"":"""",""type"":""image"",""mime"":""image/jpeg"",""url"":""http://dacphatland.com.vn/wp-content/uploads/2023/03/blog10-1024x373.jpg"",""fullUrl"":""http://dacphatland.com.vn/wp-content/uploads/2023/03/blog10.jpg""},""backgroundPosition"":""center center"",""backgroundRepeat"":""no-repeat"",""backgroundImageSize"":""cover"",""backgroundVideoSize"":""cover"",""customBackgroundColor"":"""",""hasParallax"":false,""backgroundFocalPoint"":{""x"":0.5,""y"":0.5},""backgroundVideoFocalPoint"":{""x"":0.5,""y"":0.5},""backgroundVideo"":{},""backgroundVideoMuted"":true,""backgroundVideoLoop"":true,""backgroundVideoPauseWhenInactive"":true,""backgroundVideoAutoplay"":true,""openPopover"":true,""mediaId"":""2714""}} -->
+<!-- wp:paragraph {""align"":""center"",""placeholder"":""Add slide content here…"",""className"":""gutenslider-content-initial"",""fontSize"":""larger""} -->
+<p class=""has-text-align-center gutenslider-content-initial has-larger-font-size""></p>
+<!-- /wp:paragraph -->
+<!-- /wp:eedee/block-gutenslide -->
+
+<!-- wp:eedee/block-gutenslide {""gsBlockId"":""nn4ozrgfj"",""background"":{""backgroundType"":""image"",""backgroundColor"":""#eeeeee"",""backgroundOverlayImage"":"""",""backgroundOverlayVideo"":"""",""backgroundOverlayOpacity"":50,""backgroundGradient"":{},""backgroundImage"":{""alt"":"""",""id"":""2670"",""link"":""http://dacphatland.com.vn/?attachment_id=2670"",""caption"":"""",""type"":""image"",""mime"":""image/jpeg"",""url"":""http://dacphatland.com.vn/wp-content/uploads/2023/03/blog9-1024x373.jpg"",""fullUrl"":""http://dacphatland.com.vn/wp-content/uploads/2023/03/blog9.jpg""},""backgroundPosition"":""center center"",""backgroundRepeat"":""no-repeat"",""backgroundImageSize"":""cover"",""backgroundVideoSize"":""cover"",""customBackgroundColor"":"""",""hasParallax"":false,""backgroundFocalPoint"":{""x"":0.5,""y"":0.5},""backgroundVideoFocalPoint"":{""x"":0.5,""y"":0.5},""backgroundVideo"":{},""backgroundVideoMuted"":true,""backgroundVideoLoop"":true,""backgroundVideoPauseWhenInactive"":true,""backgroundVideoAutoplay"":true,""openPopover"":true,""mediaId"":""2670""}} -->
+<!-- wp:paragraph {""align"":""center"",""placeholder"":""Add slide content here…"",""className"":""gutenslider-content-initial"",""fontSize"":""larger""} -->
+<p class=""has-text-align-center gutenslider-content-initial has-larger-font-size""></p>
+<!-- /wp:paragraph -->
+<!-- /wp:eedee/block-gutenslide -->
+
+<!-- wp:eedee/block-gutenslide {""gsBlockId"":""bxmrlg6pp"",""background"":{""backgroundType"":""image"",""backgroundColor"":""#eeeeee"",""backgroundOverlayImage"":"""",""backgroundOverlayVideo"":"""",""backgroundOverlayOpacity"":50,""backgroundGradient"":{},""backgroundImage"":{""alt"":"""",""id"":""2669"",""link"":""http://dacphatland.com.vn/?attachment_id=2669"",""caption"":"""",""type"":""image"",""mime"":""image/jpeg"",""url"":""http://dacphatland.com.vn/wp-content/uploads/2023/03/blog8-1024x373.jpg"",""fullUrl"":""http://dacphatland.com.vn/wp-content/uploads/2023/03/blog8.jpg""},""backgroundPosition"":""center center"",""backgroundRepeat"":""no-repeat"",""backgroundImageSize"":""cover"",""backgroundVideoSize"":""cover"",""customBackgroundColor"":"""",""hasParallax"":false,""backgroundFocalPoint"":{""x"":0.5,""y"":0.5},""backgroundVideoFocalPoint"":{""x"":0.5,""y"":0.5},""backgroundVideo"":{},""backgroundVideoMuted"":true,""backgroundVideoLoop"":true,""backgroundVideoPauseWhenInactive"":true,""backgroundVideoAutoplay"":true,""openPopover"":true,""mediaId"":""2669""}} -->
+<!-- wp:paragraph {""align"":""center"",""placeholder"":""Add slide content here…"",""className"":""gutenslider-content-initial"",""fontSize"":""larger""} -->
+<p class=""has-text-align-center gutenslider-content-initial has-larger-font-size""></p>
+<!-- /wp:paragraph -->
+<!-- /wp:eedee/block-gutenslide -->
+<!-- /wp:eedee/block-gutenslider -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">Thông tin chi tiết:</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><strong>BÁN NHÀ&nbsp;3 TẦNG MẶT TIỀN NGUYỄN THỊ PHƯƠNG, TRUNG TÂM TP ĐÔNG HÀ</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>&nbsp;------<strong>Chi tiết</strong>---------</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>+ Diện tích: 6x20m&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>+ Đường nhựa 10m</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>+ Hướng: Đb</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>+ Giá:&nbsp;3 tỷ</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>&nbsp;-------<strong>Đặc điểm</strong>---------</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>- Nhà MT Nguyễn Thị Phương, trung tâm thành phố Đông hà</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>-&nbsp;Tiện ích đầy đủ, gần chợ, trường học, cơ quan ban ngành</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>- Khu dân cư đông đúc, an ninh tốt</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>=&gt; Thích hợp mở văn phòng, kinh doanh</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>-------000-------------</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->",,2024-08-04,post,http://dacphatland.com.vn/ban-nha-3-tang-mat-tien-nguyen-thi-phuong-trung-tam-tp-dong-ha/,http://dacphatland.com.vn/wp-content/uploads/2023/03/gallery54.jpg,gallery54,,,,http://dacphatland.com.vn/wp-content/uploads/2023/03/gallery54.jpg,,"Đông Hà|Nhà Mặt Tiền Đường|Nhà Xưởng – Kho Bãi",,,0100,field_66acf0fe9a5d0,100,field_66acf230d9cda,"Hà Đông",field_66acf247d9cdb,"Thỏa Thuận",field_66acf266d9cdc,,field_66acf8bff64ce,,field_66acf8cbf64cf,default,,,,,,,,,,,,,,,,,,publish,1,admin,dacphatland@gmail.com,,,ban-nha-3-tang-mat-tien-nguyen-thi-phuong-trung-tam-tp-dong-ha,,default,0,0,0,closed,closed,2024-08-05
+4658,"CẦN BÁN NHÀ 2 TẦNG MẶT TIỀN QUỐC LỘ 9, GIÁ NET CHỈ 1,65 TỶ","<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:eedee/block-gutenslider {""gsBlockId"":""6j8uzg251"",""media"":[{""alt"":"""",""id"":""4665"",""link"":""http://dacphatland.com.vn/can-ban-nha-2-tang-mat-tien-quoc-lo-9-gia-net-chi-165-ty/5086z5638526351147_762ed8f79d09c794ad2b0f9acc45485b/"",""caption"":"""",""type"":""image"",""mime"":""image/jpeg"",""url"":""http://dacphatland.com.vn/wp-content/uploads/2024/08/5086z5638526351147_762ed8f79d09c794ad2b0f9acc45485b-1024x768.jpg"",""fullUrl"":""http://dacphatland.com.vn/wp-content/uploads/2024/08/5086z5638526351147_762ed8f79d09c794ad2b0f9acc45485b-scaled.jpg""},{""alt"":"""",""id"":""4660"",""link"":""http://dacphatland.com.vn/can-ban-nha-2-tang-mat-tien-quoc-lo-9-gia-net-chi-165-ty/5008z5638525818647_1ee1921b09464442a67e2335c0107e41/"",""caption"":"""",""type"":""image"",""mime"":""image/jpeg"",""url"":""http://dacphatland.com.vn/wp-content/uploads/2024/08/5008z5638525818647_1ee1921b09464442a67e2335c0107e41-730x1024.jpg"",""fullUrl"":""http://dacphatland.com.vn/wp-content/uploads/2024/08/5008z5638525818647_1ee1921b09464442a67e2335c0107e41.jpg""},{""alt"":"""",""id"":""4664"",""link"":""http://dacphatland.com.vn/can-ban-nha-2-tang-mat-tien-quoc-lo-9-gia-net-chi-165-ty/5226z5638526384811_3552a108d01ac03025e911ee05d00560/"",""caption"":"""",""type"":""image"",""mime"":""image/jpeg"",""url"":""http://dacphatland.com.vn/wp-content/uploads/2024/08/5226z5638526384811_3552a108d01ac03025e911ee05d00560-1024x768.jpg"",""fullUrl"":""http://dacphatland.com.vn/wp-content/uploads/2024/08/5226z5638526384811_3552a108d01ac03025e911ee05d00560-scaled.jpg""},{""alt"":"""",""id"":""4663"",""link"":""http://dacphatland.com.vn/can-ban-nha-2-tang-mat-tien-quoc-lo-9-gia-net-chi-165-ty/5410z5638526378476_61d6e448f83b6a3868f2216476050211/"",""caption"":"""",""type"":""image"",""mime"":""image/jpeg"",""url"":""http://dacphatland.com.vn/wp-content/uploads/2024/08/5410z5638526378476_61d6e448f83b6a3868f2216476050211-1024x768.jpg"",""fullUrl"":""http://dacphatland.com.vn/wp-content/uploads/2024/08/5410z5638526378476_61d6e448f83b6a3868f2216476050211-scaled.jpg""},{""alt"":"""",""id"":""4662"",""link"":""http://dacphatland.com.vn/can-ban-nha-2-tang-mat-tien-quoc-lo-9-gia-net-chi-165-ty/217z5638526372939_108b32d73e56f0440789c63f4e3979f0/"",""caption"":"""",""type"":""image"",""mime"":""image/jpeg"",""url"":""http://dacphatland.com.vn/wp-content/uploads/2024/08/217z5638526372939_108b32d73e56f0440789c63f4e3979f0-1024x768.jpg"",""fullUrl"":""http://dacphatland.com.vn/wp-content/uploads/2024/08/217z5638526372939_108b32d73e56f0440789c63f4e3979f0-scaled.jpg""},{""alt"":"""",""id"":""4661"",""link"":""http://dacphatland.com.vn/can-ban-nha-2-tang-mat-tien-quoc-lo-9-gia-net-chi-165-ty/9585z5638526381105_2681be3e66372464019a2e445d3a68d2/"",""caption"":"""",""type"":""image"",""mime"":""image/jpeg"",""url"":""http://dacphatland.com.vn/wp-content/uploads/2024/08/9585z5638526381105_2681be3e66372464019a2e445d3a68d2-1024x768.jpg"",""fullUrl"":""http://dacphatland.com.vn/wp-content/uploads/2024/08/9585z5638526381105_2681be3e66372464019a2e445d3a68d2-scaled.jpg""}],""bgImageId"":""4665"",""sliderHeight"":""60vh""} -->
+<!-- wp:eedee/block-gutenslide {""gsBlockId"":""08bdw37ma"",""background"":{""backgroundType"":""image"",""backgroundColor"":""#eeeeee"",""backgroundOverlayImage"":"""",""backgroundOverlayVideo"":"""",""backgroundOverlayOpacity"":50,""backgroundGradient"":{},""backgroundImage"":{""alt"":"""",""id"":""4665"",""link"":""http://dacphatland.com.vn/can-ban-nha-2-tang-mat-tien-quoc-lo-9-gia-net-chi-165-ty/5086z5638526351147_762ed8f79d09c794ad2b0f9acc45485b/"",""caption"":"""",""type"":""image"",""mime"":""image/jpeg"",""url"":""http://dacphatland.com.vn/wp-content/uploads/2024/08/5086z5638526351147_762ed8f79d09c794ad2b0f9acc45485b-1024x768.jpg"",""fullUrl"":""http://dacphatland.com.vn/wp-content/uploads/2024/08/5086z5638526351147_762ed8f79d09c794ad2b0f9acc45485b-scaled.jpg""},""backgroundPosition"":""center center"",""backgroundRepeat"":""no-repeat"",""backgroundImageSize"":""cover"",""backgroundVideoSize"":""cover"",""customBackgroundColor"":"""",""hasParallax"":false,""backgroundFocalPoint"":{""x"":0.5,""y"":0.5},""backgroundVideoFocalPoint"":{""x"":0.5,""y"":0.5},""backgroundVideo"":{},""backgroundVideoMuted"":true,""backgroundVideoLoop"":true,""backgroundVideoPauseWhenInactive"":true,""backgroundVideoAutoplay"":true,""openPopover"":true,""mediaId"":""4665""}} -->
+<!-- wp:paragraph {""align"":""center"",""placeholder"":""Add slide content here…"",""className"":""gutenslider-content-initial"",""fontSize"":""larger""} -->
+<p class=""has-text-align-center gutenslider-content-initial has-larger-font-size""></p>
+<!-- /wp:paragraph -->
+<!-- /wp:eedee/block-gutenslide -->
+
+<!-- wp:eedee/block-gutenslide {""gsBlockId"":""bfnd3hh8n"",""background"":{""backgroundType"":""image"",""backgroundColor"":""#eeeeee"",""backgroundOverlayImage"":"""",""backgroundOverlayVideo"":"""",""backgroundOverlayOpacity"":50,""backgroundGradient"":{},""backgroundImage"":{""alt"":"""",""id"":""4660"",""link"":""http://dacphatland.com.vn/can-ban-nha-2-tang-mat-tien-quoc-lo-9-gia-net-chi-165-ty/5008z5638525818647_1ee1921b09464442a67e2335c0107e41/"",""caption"":"""",""type"":""image"",""mime"":""image/jpeg"",""url"":""http://dacphatland.com.vn/wp-content/uploads/2024/08/5008z5638525818647_1ee1921b09464442a67e2335c0107e41-730x1024.jpg"",""fullUrl"":""http://dacphatland.com.vn/wp-content/uploads/2024/08/5008z5638525818647_1ee1921b09464442a67e2335c0107e41.jpg""},""backgroundPosition"":""center center"",""backgroundRepeat"":""no-repeat"",""backgroundImageSize"":""cover"",""backgroundVideoSize"":""cover"",""customBackgroundColor"":"""",""hasParallax"":false,""backgroundFocalPoint"":{""x"":0.5,""y"":0.5},""backgroundVideoFocalPoint"":{""x"":0.5,""y"":0.5},""backgroundVideo"":{},""backgroundVideoMuted"":true,""backgroundVideoLoop"":true,""backgroundVideoPauseWhenInactive"":true,""backgroundVideoAutoplay"":true,""openPopover"":true,""mediaId"":""4660""}} -->
+<!-- wp:paragraph {""align"":""center"",""placeholder"":""Add slide content here…"",""className"":""gutenslider-content-initial"",""fontSize"":""larger""} -->
+<p class=""has-text-align-center gutenslider-content-initial has-larger-font-size""></p>
+<!-- /wp:paragraph -->
+<!-- /wp:eedee/block-gutenslide -->
+
+<!-- wp:eedee/block-gutenslide {""gsBlockId"":""laokfqtk9"",""background"":{""backgroundType"":""image"",""backgroundColor"":""#eeeeee"",""backgroundOverlayImage"":"""",""backgroundOverlayVideo"":"""",""backgroundOverlayOpacity"":50,""backgroundGradient"":{},""backgroundImage"":{""alt"":"""",""id"":""4664"",""link"":""http://dacphatland.com.vn/can-ban-nha-2-tang-mat-tien-quoc-lo-9-gia-net-chi-165-ty/5226z5638526384811_3552a108d01ac03025e911ee05d00560/"",""caption"":"""",""type"":""image"",""mime"":""image/jpeg"",""url"":""http://dacphatland.com.vn/wp-content/uploads/2024/08/5226z5638526384811_3552a108d01ac03025e911ee05d00560-1024x768.jpg"",""fullUrl"":""http://dacphatland.com.vn/wp-content/uploads/2024/08/5226z5638526384811_3552a108d01ac03025e911ee05d00560-scaled.jpg""},""backgroundPosition"":""center center"",""backgroundRepeat"":""no-repeat"",""backgroundImageSize"":""cover"",""backgroundVideoSize"":""cover"",""customBackgroundColor"":"""",""hasParallax"":false,""backgroundFocalPoint"":{""x"":0.5,""y"":0.5},""backgroundVideoFocalPoint"":{""x"":0.5,""y"":0.5},""backgroundVideo"":{},""backgroundVideoMuted"":true,""backgroundVideoLoop"":true,""backgroundVideoPauseWhenInactive"":true,""backgroundVideoAutoplay"":true,""openPopover"":true,""mediaId"":""4664""}} -->
+<!-- wp:paragraph {""align"":""center"",""placeholder"":""Add slide content here…"",""className"":""gutenslider-content-initial"",""fontSize"":""larger""} -->
+<p class=""has-text-align-center gutenslider-content-initial has-larger-font-size""></p>
+<!-- /wp:paragraph -->
+<!-- /wp:eedee/block-gutenslide -->
+
+<!-- wp:eedee/block-gutenslide {""gsBlockId"":""xvi6mlxig"",""background"":{""backgroundType"":""image"",""backgroundColor"":""#eeeeee"",""backgroundOverlayImage"":"""",""backgroundOverlayVideo"":"""",""backgroundOverlayOpacity"":50,""backgroundGradient"":{},""backgroundImage"":{""alt"":"""",""id"":""4663"",""link"":""http://dacphatland.com.vn/can-ban-nha-2-tang-mat-tien-quoc-lo-9-gia-net-chi-165-ty/5410z5638526378476_61d6e448f83b6a3868f2216476050211/"",""caption"":"""",""type"":""image"",""mime"":""image/jpeg"",""url"":""http://dacphatland.com.vn/wp-content/uploads/2024/08/5410z5638526378476_61d6e448f83b6a3868f2216476050211-1024x768.jpg"",""fullUrl"":""http://dacphatland.com.vn/wp-content/uploads/2024/08/5410z5638526378476_61d6e448f83b6a3868f2216476050211-scaled.jpg""},""backgroundPosition"":""center center"",""backgroundRepeat"":""no-repeat"",""backgroundImageSize"":""cover"",""backgroundVideoSize"":""cover"",""customBackgroundColor"":"""",""hasParallax"":false,""backgroundFocalPoint"":{""x"":0.5,""y"":0.5},""backgroundVideoFocalPoint"":{""x"":0.5,""y"":0.5},""backgroundVideo"":{},""backgroundVideoMuted"":true,""backgroundVideoLoop"":true,""backgroundVideoPauseWhenInactive"":true,""backgroundVideoAutoplay"":true,""openPopover"":true,""mediaId"":""4663""}} -->
+<!-- wp:paragraph {""align"":""center"",""placeholder"":""Add slide content here…"",""className"":""gutenslider-content-initial"",""fontSize"":""larger""} -->
+<p class=""has-text-align-center gutenslider-content-initial has-larger-font-size""></p>
+<!-- /wp:paragraph -->
+<!-- /wp:eedee/block-gutenslide -->
+
+<!-- wp:eedee/block-gutenslide {""gsBlockId"":""o9876irai"",""background"":{""backgroundType"":""image"",""backgroundColor"":""#eeeeee"",""backgroundOverlayImage"":"""",""backgroundOverlayVideo"":"""",""backgroundOverlayOpacity"":50,""backgroundGradient"":{},""backgroundImage"":{""alt"":"""",""id"":""4662"",""link"":""http://dacphatland.com.vn/can-ban-nha-2-tang-mat-tien-quoc-lo-9-gia-net-chi-165-ty/217z5638526372939_108b32d73e56f0440789c63f4e3979f0/"",""caption"":"""",""type"":""image"",""mime"":""image/jpeg"",""url"":""http://dacphatland.com.vn/wp-content/uploads/2024/08/217z5638526372939_108b32d73e56f0440789c63f4e3979f0-1024x768.jpg"",""fullUrl"":""http://dacphatland.com.vn/wp-content/uploads/2024/08/217z5638526372939_108b32d73e56f0440789c63f4e3979f0-scaled.jpg""},""backgroundPosition"":""center center"",""backgroundRepeat"":""no-repeat"",""backgroundImageSize"":""cover"",""backgroundVideoSize"":""cover"",""customBackgroundColor"":"""",""hasParallax"":false,""backgroundFocalPoint"":{""x"":0.5,""y"":0.5},""backgroundVideoFocalPoint"":{""x"":0.5,""y"":0.5},""backgroundVideo"":{},""backgroundVideoMuted"":true,""backgroundVideoLoop"":true,""backgroundVideoPauseWhenInactive"":true,""backgroundVideoAutoplay"":true,""openPopover"":true,""mediaId"":""4662""}} -->
+<!-- wp:paragraph {""align"":""center"",""placeholder"":""Add slide content here…"",""className"":""gutenslider-content-initial"",""fontSize"":""larger""} -->
+<p class=""has-text-align-center gutenslider-content-initial has-larger-font-size""></p>
+<!-- /wp:paragraph -->
+<!-- /wp:eedee/block-gutenslide -->
+
+<!-- wp:eedee/block-gutenslide {""gsBlockId"":""mpaeupu69"",""background"":{""backgroundType"":""image"",""backgroundColor"":""#eeeeee"",""backgroundOverlayImage"":"""",""backgroundOverlayVideo"":"""",""backgroundOverlayOpacity"":50,""backgroundGradient"":{},""backgroundImage"":{""alt"":"""",""id"":""4661"",""link"":""http://dacphatland.com.vn/can-ban-nha-2-tang-mat-tien-quoc-lo-9-gia-net-chi-165-ty/9585z5638526381105_2681be3e66372464019a2e445d3a68d2/"",""caption"":"""",""type"":""image"",""mime"":""image/jpeg"",""url"":""http://dacphatland.com.vn/wp-content/uploads/2024/08/9585z5638526381105_2681be3e66372464019a2e445d3a68d2-1024x768.jpg"",""fullUrl"":""http://dacphatland.com.vn/wp-content/uploads/2024/08/9585z5638526381105_2681be3e66372464019a2e445d3a68d2-scaled.jpg""},""backgroundPosition"":""center center"",""backgroundRepeat"":""no-repeat"",""backgroundImageSize"":""cover"",""backgroundVideoSize"":""cover"",""customBackgroundColor"":"""",""hasParallax"":false,""backgroundFocalPoint"":{""x"":0.5,""y"":0.5},""backgroundVideoFocalPoint"":{""x"":0.5,""y"":0.5},""backgroundVideo"":{},""backgroundVideoMuted"":true,""backgroundVideoLoop"":true,""backgroundVideoPauseWhenInactive"":true,""backgroundVideoAutoplay"":true,""openPopover"":true,""mediaId"":""4661""}} -->
+<!-- wp:paragraph {""align"":""center"",""placeholder"":""Add slide content here…"",""className"":""gutenslider-content-initial"",""fontSize"":""larger""} -->
+<p class=""has-text-align-center gutenslider-content-initial has-larger-font-size""></p>
+<!-- /wp:paragraph -->
+<!-- /wp:eedee/block-gutenslide -->
+<!-- /wp:eedee/block-gutenslider -->
+
+<!-- wp:heading {""level"":3,""className"":""row""} -->
+<h3 class=""wp-block-heading row"">Thông tin chi tiết: </h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>------<strong>Chi tiết</strong>---------</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>+ Diện tích: 4,78x14,8m</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>+ Đường&nbsp;nhựa 32m</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>+ Hướng:&nbsp;Tây bắc</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>+ Giá: 1tỷ650</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>&nbsp;-------<strong>Đặc điểm</strong>---------</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>- Nhà 2 tầng&nbsp;mặt tiền quốc lộ 9. phường 4, TP Đông Hà</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>-&nbsp;Nhà đẹp gồm Phòng khách, 2PN, 2WC, bếp, P. Thờ...</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>- Gần chợ, gần trường học, ngân hàng tiện ích đầy đủ</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>- Khu dân cư đông đúc, an ninh tốt</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>=&gt;&nbsp;Nhà mới, mua vào ở ngay</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->",,2024-08-05,post,http://dacphatland.com.vn/can-ban-nha-2-tang-mat-tien-quoc-lo-9-gia-net-chi-165-ty/,http://dacphatland.com.vn/wp-content/uploads/2024/08/5086z5638526351147_762ed8f79d09c794ad2b0f9acc45485b-scaled.jpg|http://dacphatland.com.vn/wp-content/uploads/2024/08/5008z5638525818647_1ee1921b09464442a67e2335c0107e41.jpg|http://dacphatland.com.vn/wp-content/uploads/2024/08/9585z5638526381105_2681be3e66372464019a2e445d3a68d2-scaled.jpg|http://dacphatland.com.vn/wp-content/uploads/2024/08/217z5638526372939_108b32d73e56f0440789c63f4e3979f0-scaled.jpg|http://dacphatland.com.vn/wp-content/uploads/2024/08/5410z5638526378476_61d6e448f83b6a3868f2216476050211-scaled.jpg|http://dacphatland.com.vn/wp-content/uploads/2024/08/5226z5638526384811_3552a108d01ac03025e911ee05d00560-scaled.jpg,5086z5638526351147_762ed8f79d09c794ad2b0f9acc45485b|5008z5638525818647_1ee1921b09464442a67e2335c0107e41|9585z5638526381105_2681be3e66372464019a2e445d3a68d2|217z5638526372939_108b32d73e56f0440789c63f4e3979f0|5410z5638526378476_61d6e448f83b6a3868f2216476050211|5226z5638526384811_3552a108d01ac03025e911ee05d00560,|||||,|||||,|||||,http://dacphatland.com.vn/wp-content/uploads/2024/08/5086z5638526351147_762ed8f79d09c794ad2b0f9acc45485b-scaled.jpg,,"Đất Thổ Cư|Đông Hà|Nhà Mặt Tiền Đường",,,100,field_66acf0fe9a5d0,100,field_66acf230d9cda,"Phường 4, TP Đông Hà, Quảng Trị",field_66acf247d9cdb,"1,65 TỶ",field_66acf266d9cdc,"Sổ hồng Chính Chủ",field_66acf8bff64ce,"Tây Bắc",field_66acf8cbf64cf,default,wp-post,3.23.3,3.21.0,"Sổ hồng Chính Chủ",field_66acf8bff64ce,1,100,field_66acf230d9cda,,,,,,,,,,publish,1,admin,dacphatland@gmail.com,,,can-ban-nha-2-tang-mat-tien-quoc-lo-9-gia-net-chi-165-ty,,default,0,0,0,closed,closed,2024-08-05

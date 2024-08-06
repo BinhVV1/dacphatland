@@ -24,7 +24,7 @@
 .home-page-default{
 	padding-top: 20px;
 	@media(min-width: 1200px){
-		padding-top:80px;
+		padding-top:20px;
 	}
 }
 body.no-footer{
@@ -34,7 +34,7 @@ body.no-footer{
 }
 body.single-post{
 	.header-mobile{
-		background: #191D23;
+		background: #005388;
 	}
 }
 @media(min-width: 1440px){
@@ -72,7 +72,7 @@ div.wpcf7-validation-errors{
 //----------------------------------
 .page-404{
 	position:relative;
-	background-color: #191D23;
+	background-color: #005388;
 	color: #fff;
 	height: 100vh;
    .not-found{

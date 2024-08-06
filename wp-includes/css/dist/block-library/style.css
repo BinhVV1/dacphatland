@@ -1048,6 +1048,9 @@ figure.wp-block-gallery.has-nested-images{
   width:100%;
 }
 @media (min-width:600px){
+  .wp-block-image .alignright{
+    margin-left: 0px !important;
+  }
   .wp-block-gallery.has-nested-images.columns-3 figure.wp-block-image:not(#individual-image){
     width:calc(33.33333% - var(--wp--style--unstable-gallery-gap, 16px)*.66667);
   }

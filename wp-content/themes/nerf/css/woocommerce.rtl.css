@@ -1754,7 +1754,7 @@ table.variations .tawcvs-swatches .swatch-label.selected {
 #add_payment_method #payment ul.payment_methods li label, .woocommerce-cart #payment ul.payment_methods li label, .woocommerce-checkout #payment ul.payment_methods li label {
   cursor: pointer;
   font-weight: 500;
-  font-family: var(--nerf-heading-font);
+  font-family: var(--td_default_google_font_2, 'Roboto', sans-serif) !important;
   display: inline;
   color: var(--nerf-link-color);
 }
@@ -4631,7 +4631,7 @@ form.woocommerce-checkout {
 .product-categories li.current-cat-parent > a,
 .product-categories li.current-cat > a,
 .product-categories li:hover > a {
-  color: var(--nerf-link_hover_color);
+  color: #6ABD45;
 }
 
 .wc-block-product-categories-list li [class*="count"],
@@ -5101,7 +5101,7 @@ div.cart label {
   display: inline-block;
   text-align: center;
   color: #fff;
-  background-color: var(--nerf-link_hover_color);
+  background-color: #6ABD45;
   width: 50px;
   height: 50px;
   line-height: 50px;

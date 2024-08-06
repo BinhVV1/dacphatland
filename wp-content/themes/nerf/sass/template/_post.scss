@@ -74,7 +74,7 @@ blockquote{
 	position: relative;
 	@include border-radius(0);
 	font-weight: 400;
-	background: #F7F0EC;
+	background: #003a9b14;
 	font-size: 1rem;
 	font-style: normal;
 	@media(min-width: 1200px){
@@ -168,7 +168,7 @@ blockquote{
 	li{
 		margin: 0 4px;
 		a{
-			border: 1px solid #F7F0EC;
+			border: 1px solid #003a9b14;
 			display: inline-block;
 			white-space: nowrap;
 			font-weight: 500;
@@ -184,7 +184,7 @@ blockquote{
 			&:focus,
 			&.active{
 				color: $body-link;
-				background: #F7F0EC;
+				background: #003a9b14;
 			}
 		}
 	}
@@ -368,7 +368,7 @@ blockquote{
 				content:'';
 				position: absolute;
 				@include size(100%,100%);
-				background: rgba(#191D23,0.3);
+				background: rgba(#005388,0.3);
 				top: 0;
 				left: 0;
 			}
@@ -454,8 +454,8 @@ blockquote{
 		}
 	}
 	&:hover{
-		background: #191D23;
-		border-color: #191D23;
+		background: #005388;
+		border-color: #005388;
 		&,
 		.date-bottom,
 		a,
@@ -464,7 +464,7 @@ blockquote{
 		}
 	}
 	&.v2{
-		background: #191D23;
+		background: #005388;
 		border: 1px solid $theme-color;
 		.entry-title a{
 			color: #fff;
@@ -848,7 +848,7 @@ blockquote{
 //related-posts
 .wrapper-posts-related{
 	padding: $theme-margin 0;
-	background: rgba(#F7F0EC,0.4);
+	background: rgba(#003a9b14,0.4);
 	@media(min-width: 1200px){
 		padding:90px 0;
 	}
@@ -1041,7 +1041,7 @@ blockquote{
 		}
 	}
 	.post-navigation{
-		background: #F7F0EC;
+		background: #003a9b14;
 		padding: 20px;
 		margin-top: $theme-margin;
 		@media(min-width: 1200px){
@@ -1132,7 +1132,7 @@ blockquote{
 		padding: 120px 0;
 	}
 	&.has-img{
-		background-color: #191D23;
+		background-color: #005388;
 		margin-bottom: $theme-margin;
 		background-size: cover;
 		&:before{
@@ -1141,7 +1141,7 @@ blockquote{
 			@include size(100%,100%);
 			top: 0;
 			left: 0;
-			background: #191D23;
+			background: #005388;
 			@include opacity(0.5);
 		}
 		a,.active,

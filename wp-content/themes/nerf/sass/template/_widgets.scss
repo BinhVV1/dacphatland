@@ -613,7 +613,7 @@ ol.wp-block-latest-comments{
     }
     form{
         position: relative;
-        border: 1px solid #F7F0EC;
+        border: 1px solid #003a9b14;
         @include border-radius($border-radius);
         padding: 0 30px 0 20px;
     }
@@ -637,7 +637,7 @@ ol.wp-block-latest-comments{
         padding: 7px 18px;
         @include transition(all 0.2s ease 0s);
         color: $body-link;
-        background: #F7F0EC;
+        background: #003a9b14;
         &:hover,&:focus,&.active{
             color: $theme-color;
         }
@@ -904,7 +904,7 @@ ol.wp-block-latest-comments{
             } 
             &.active{
                 color: $link-color;
-                background: #F7F0EC;
+                background: #003a9b14;
             }
         }
     }

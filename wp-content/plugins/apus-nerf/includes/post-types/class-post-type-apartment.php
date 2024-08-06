@@ -20,7 +20,7 @@ class Apus_Nerf_Post_Type_Apartment {
 	public static function register_post_type() {
 
 		$singular = __( 'Apartment', 'apus-nerf' );
-		$plural   = __( 'Apartments', 'apus-nerf' );
+		$plural   = __( 'Dự Án Cao Cấp', 'apus-nerf' );
 
 		$labels = array(
 			'name'                  => $plural,

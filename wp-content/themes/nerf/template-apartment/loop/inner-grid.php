@@ -10,7 +10,7 @@ $thumb = nerf_display_post_thumb($thumbsize);
 				<?php
 	                echo trim($thumb);
 	            ?>
-				<a class="explore" href="<?php the_permalink(); ?>"><?php esc_html_e('EXPLORE','nerf') ?></a>
+				<a class="explore" href="<?php the_permalink(); ?>"><?php esc_html_e('Chi Tiết','nerf') ?></a>
 			</div>
 		<?php } ?>
 		

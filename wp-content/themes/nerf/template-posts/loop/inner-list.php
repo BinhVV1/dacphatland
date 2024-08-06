@@ -34,7 +34,7 @@ $thumb = nerf_display_post_thumb($thumbsize);
             <?php } ?>
             <div class="description d-block d-md-none"><?php echo nerf_substring( get_the_excerpt(),25, '...' ); ?></div>
             <div class="description d-none d-md-block"><?php echo nerf_substring( get_the_excerpt(),52, '...' ); ?></div>
-            <a class="btn-readmore d-inline-flex align-items-center" href="<?php the_permalink(); ?>"> <i class="flex-shrink-0 direction-circle d-flex align-items-center justify-content-center flaticon-up-right-arrow"></i><span class="space-nowrap"><?php echo esc_html__('Read More','nerf') ?></span></a>
+            <a class="btn-readmore d-inline-flex align-items-center" href="<?php the_permalink(); ?>"> <i class="flex-shrink-0 direction-circle d-flex align-items-center justify-content-center flaticon-up-right-arrow"></i><span class="space-nowrap"><?php echo esc_html__('Xem Thêm','nerf') ?></span></a>
         </div>
     </div>
 </article>

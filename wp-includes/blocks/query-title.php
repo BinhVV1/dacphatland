@@ -43,7 +43,7 @@ function render_block_core_query_title( $attributes ) {
 		if ( isset( $attributes['showSearchTerm'] ) && $attributes['showSearchTerm'] ) {
 			$title = sprintf(
 				/* translators: %s is the search term. */
-				__( 'Search results for: "%s"' ),
+				__( 'Kết Quả Tìm Kiếm Cho: "%s"' ),
 				get_search_query()
 			);
 		}

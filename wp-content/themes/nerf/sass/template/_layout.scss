@@ -139,7 +139,7 @@ body.fix-header{
 .header-mobile{
     padding: 20px 0;
     @include transition(all 0.2s ease 0s);
-    background: #191D23;
+    background: #005388;
     .btn-showmenu{
         color: #fff;
     }
@@ -149,7 +149,7 @@ body.fix-header{
         }
     }
     &.stick-header-mobile{
-        background: #191D23 !important;
+        background: #005388 !important;
     }
 }
 .main-sticky-header{
