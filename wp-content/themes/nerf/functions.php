@@ -205,56 +205,58 @@ function nerf_get_fonts_url() {
  * @since Nerf 1.0
  */
 function nerf_enqueue_styles() {
-	
+	$theme_version = '1.1.9';
+
 	// load font
 	wp_enqueue_style( 'nerf-theme-fonts', nerf_get_fonts_url(), array(), null );
 
 	//load font awesome
-	wp_enqueue_style( 'all-awesome', get_template_directory_uri() . '/css/all-awesome.css', array(), '5.11.2' );
+	wp_enqueue_style( 'all-awesome', get_template_directory_uri() . '/css/all-awesome.css', array(), $theme_version );
 
 	//load font flaticon
-	wp_enqueue_style( 'flaticon', get_template_directory_uri() . '/css/flaticon.css', array(), '1.0.0' );
+	wp_enqueue_style( 'flaticon', get_template_directory_uri() . '/css/flaticon.css', array(), $theme_version );
 
 	// load font themify icon
-	wp_enqueue_style( 'themify-icons', get_template_directory_uri() . '/css/themify-icons.css', array(), '1.0.0' );
+	wp_enqueue_style( 'themify-icons', get_template_directory_uri() . '/css/themify-icons.css', array(), $theme_version );
 			
 	// load animate version 3.6.0
-	wp_enqueue_style( 'animate', get_template_directory_uri() . '/css/animate.css', array(), '3.6.0' );
+	wp_enqueue_style( 'animate', get_template_directory_uri() . '/css/animate.css', array(), $theme_version );
 
 	// load bootstrap style
 	if( is_rtl() ){
-		wp_enqueue_style( 'bootstrap-rtl', get_template_directory_uri() . '/css/bootstrap.rtl.css', array(), '5.0.2' );
+		wp_enqueue_style( 'bootstrap-rtl', get_template_directory_uri() . '/css/bootstrap.rtl.css', array(), $theme_version );
 	} else {
-		wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.css', array(), '5.0.2' );
+		wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.css', array(), $theme_version );
 	}
 	// slick
-	wp_enqueue_style( 'slick', get_template_directory_uri() . '/css/slick.css', array(), '1.8.0' );
+	wp_enqueue_style( 'slick', get_template_directory_uri() . '/css/slick.css', array(), $theme_version );
 	// magnific-popup
-	wp_enqueue_style( 'magnific-popup', get_template_directory_uri() . '/css/magnific-popup.css', array(), '1.1.0' );
+	wp_enqueue_style( 'magnific-popup', get_template_directory_uri() . '/css/magnific-popup.css', array(), $theme_version );
 	// perfect scrollbar
-	wp_enqueue_style( 'perfect-scrollbar', get_template_directory_uri() . '/css/perfect-scrollbar.css', array(), '0.6.12' );
+	wp_enqueue_style( 'perfect-scrollbar', get_template_directory_uri() . '/css/perfect-scrollbar.css', array(), $theme_version );
 	
 	// mobile menu
-	wp_enqueue_style( 'sliding-menu', get_template_directory_uri() . '/css/sliding-menu.min.css', array(), '0.3.0' );
+	wp_enqueue_style( 'sliding-menu', get_template_directory_uri() . '/css/sliding-menu.min.css', array(), $theme_version );
 
 	// main style
 	if( is_rtl() ){
-		wp_enqueue_style( 'nerf-template', get_template_directory_uri() . '/css/template.rtl.css', array(), '1.0' );
+		wp_enqueue_style( 'nerf-template', get_template_directory_uri() . '/css/template.rtl.css', array(), $theme_version );
 	} else {
-		wp_enqueue_style( 'nerf-template', get_template_directory_uri() . '/css/template.css', array(), '1.0' );
+		wp_enqueue_style( 'nerf-template', get_template_directory_uri() . '/css/template.css', array(), $theme_version );
 	}
 	
 	$custom_style = nerf_custom_styles();
 	if ( !empty($custom_style) ) {
 		wp_add_inline_style( 'nerf-template', $custom_style );
 	}
-	wp_enqueue_style( 'nerf-style', get_template_directory_uri() . '/style.css', array(), '1.0' );
+	wp_enqueue_style( 'nerf-style', get_template_directory_uri() . '/style.css', array(), $theme_version );
 }
 add_action( 'wp_enqueue_scripts', 'nerf_enqueue_styles', 1000 );
 
 function nerf_admin_enqueue_styles() {
+	$theme_version = '1.1.9';
 	//load font flaticon
-	wp_enqueue_style( 'flaticon', get_template_directory_uri() . '/css/flaticon.css', array(), '1.0.0' );
+	wp_enqueue_style( 'flaticon', get_template_directory_uri() . '/css/flaticon.css', array(), $theme_version );
 }
 add_action( 'admin_enqueue_scripts', 'nerf_admin_enqueue_styles', 1000 );
 
@@ -264,16 +266,17 @@ add_action( 'admin_enqueue_scripts', 'nerf_admin_enqueue_styles', 1000 );
  * @since Nerf 1.0
  */
 function nerf_enqueue_scripts() {
-	
+	$theme_version = '1.1.9';
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 	// bootstrap
-	wp_enqueue_script( 'bootstrap-bundle', get_template_directory_uri() . '/js/bootstrap.bundle.min.js', array( 'jquery' ), '5.1.3', true );
+	wp_enqueue_script( 'bootstrap-bundle', get_template_directory_uri() . '/js/bootstrap.bundle.min.js', array( 'jquery' ), $theme_version, true );
 	// slick
-	wp_enqueue_script( 'slick', get_template_directory_uri() . '/js/slick.min.js', array( 'jquery' ), '1.8.0', true );
+	wp_enqueue_script( 'slick', get_template_directory_uri() . '/js/slick.min.js', array( 'jquery' ), $theme_version, true );
 	// countdown
-	wp_register_script( 'countdown', get_template_directory_uri() . '/js/countdown.js', array( 'jquery' ), '20150315', true );
+	wp_register_script( 'countdown', get_template_directory_uri() . '/js/countdown.js', array( 'jquery' ), $theme_version, true );
 	wp_localize_script( 'countdown', 'nerf_countdown_opts', array(
 		'days' => esc_html__('Days', 'nerf'),
 		'hours' => esc_html__('Hrs', 'nerf'),
@@ -283,22 +286,22 @@ function nerf_enqueue_scripts() {
 	wp_enqueue_script( 'countdown' );
 	
 	// popup
-	wp_enqueue_script( 'jquery-magnific-popup', get_template_directory_uri() . '/js/jquery.magnific-popup.min.js', array( 'jquery' ), '1.1.0', true );
+	wp_enqueue_script( 'jquery-magnific-popup', get_template_directory_uri() . '/js/jquery.magnific-popup.min.js', array( 'jquery' ), $theme_version, true );
 	// unviel
-	wp_enqueue_script( 'jquery-unveil', get_template_directory_uri() . '/js/jquery.unveil.js', array( 'jquery' ), '1.1.0', true );
+	wp_enqueue_script( 'jquery-unveil', get_template_directory_uri() . '/js/jquery.unveil.js', array( 'jquery' ), $theme_version, true );
 	
 	// perfect scrollbar
-	wp_enqueue_script( 'perfect-scrollbar', get_template_directory_uri() . '/js/perfect-scrollbar.min.js', array( 'jquery' ), '1.5.0', true );
+	wp_enqueue_script( 'perfect-scrollbar', get_template_directory_uri() . '/js/perfect-scrollbar.min.js', array( 'jquery' ), $theme_version, true );
 	
 	if ( nerf_get_config('keep_header') ) {
-		wp_enqueue_script( 'sticky', get_template_directory_uri() . '/js/sticky.min.js', array( 'jquery', 'elementor-waypoints' ), '4.0.1', true );
+		wp_enqueue_script( 'sticky', get_template_directory_uri() . '/js/sticky.min.js', array( 'jquery', 'elementor-waypoints' ), $theme_version, true );
 	}
 
 	// mobile menu script
-	wp_enqueue_script( 'sliding-menu', get_template_directory_uri() . '/js/sliding-menu.min.js', array( 'jquery' ), '0.3.0', true );
+	wp_enqueue_script( 'sliding-menu', get_template_directory_uri() . '/js/sliding-menu.min.js', array( 'jquery' ), $theme_version, true );
 
 	// main script
-	wp_register_script( 'nerf-functions', get_template_directory_uri() . '/js/functions.js', array( 'jquery' ), '20150330', true );
+	wp_register_script( 'nerf-functions', get_template_directory_uri() . '/js/functions.js', array( 'jquery' ), $theme_version, true );
 	wp_localize_script( 'nerf-functions', 'nerf_opts', array(
 		'ajaxurl' => esc_url(admin_url( 'admin-ajax.php' )),
 		'previous' => esc_html__('Previous', 'nerf'),
@@ -456,6 +459,84 @@ function nerf_get_load_plugins() {
 
 	tgmpa( $plugins );
 }
+
+function create_thong_tin_su_kien_post_type() {
+    $labels = array(
+        'name'                  => _x('Thông tin & Sự kiện', 'Post type general name', 'textdomain'),
+        'singular_name'         => _x('Thông tin & Sự kiện', 'Post type singular name', 'textdomain'),
+        'menu_name'             => _x('Thông tin & Sự kiện', 'Admin Menu text', 'textdomain'),
+        'name_admin_bar'        => _x('Thông tin & Sự kiện', 'Add New on Toolbar', 'textdomain'),
+        'add_new'               => __('Thêm mới', 'textdomain'),
+        'add_new_item'          => __('Thêm mới Thông tin & Sự kiện', 'textdomain'),
+        'new_item'              => __('Mới Thông tin & Sự kiện', 'textdomain'),
+        'edit_item'             => __('Chỉnh sửa Thông tin & Sự kiện', 'textdomain'),
+        'view_item'             => __('Xem Thông tin & Sự kiện', 'textdomain'),
+        'all_items'             => __('Tất cả Thông tin & Sự kiện', 'textdomain'),
+        'search_items'          => __('Tìm kiếm Thông tin & Sự kiện', 'textdomain'),
+        'parent_item_colon'     => __('Thông tin & Sự kiện gốc:', 'textdomain'),
+        'not_found'             => __('Không tìm thấy Thông tin & Sự kiện', 'textdomain'),
+        'not_found_in_trash'    => __('Không tìm thấy Thông tin & Sự kiện trong thùng rác', 'textdomain'),
+        'featured_image'        => _x('Ảnh đại diện', 'Overrides the “Featured Image” phrase for this post type. Added in 4.3', 'textdomain'),
+        'set_featured_image'    => _x('Đặt ảnh đại diện', 'Overrides the “Set featured image” phrase for this post type. Added in 4.3', 'textdomain'),
+        'remove_featured_image' => _x('Xóa ảnh đại diện', 'Overrides the “Remove featured image” phrase for this post type. Added in 4.3', 'textdomain'),
+        'use_featured_image'    => _x('Sử dụng làm ảnh đại diện', 'Overrides the “Use as featured image” phrase for this post type. Added in 4.3', 'textdomain'),
+        'archives'              => _x('Lưu trữ Thông tin & Sự kiện', 'The post type archive label used in nav menus. Default “Post Archives”. Added in 4.4', 'textdomain'),
+        'insert_into_item'      => _x('Chèn vào Thông tin & Sự kiện', 'Overrides the “Insert into post”/”Insert into page” phrase (used when inserting media into a post). Added in 4.4', 'textdomain'),
+        'uploaded_to_this_item' => _x('Đã tải lên Thông tin & Sự kiện này', 'Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used when viewing media attached to a post). Added in 4.4', 'textdomain'),
+        'filter_items_list'     => _x('Lọc danh sách Thông tin & Sự kiện', 'Screen reader text for the filter links heading on the post type listing screen. Default “Filter posts list”. Added in 4.4', 'textdomain'),
+        'items_list_navigation' => _x('Điều hướng danh sách Thông tin & Sự kiện', 'Screen reader text for the pagination heading on the post type listing screen. Default “Posts list navigation”. Added in 4.4', 'textdomain'),
+        'items_list'            => _x('Danh sách Thông tin & Sự kiện', 'Screen reader text for the items list heading on the post type listing screen. Default “Posts list”. Added in 4.4', 'textdomain'),
+    );
+
+    $args = array(
+        'labels'             => $labels,
+        'public'             => true,
+        'publicly_queryable' => true,
+        'show_ui'            => true,
+        'show_in_menu'       => true,
+        'query_var'          => true,
+        'rewrite'            => array('slug' => 'thong-tin-su-kien'),
+        'capability_type'    => 'post',
+        'has_archive'        => true,
+        'hierarchical'       => false,
+        'menu_position'      => null,
+        'supports'           => array('title', 'editor', 'thumbnail', 'excerpt', 'comments'),
+        'show_in_rest'       => false,
+    );
+
+    register_post_type('thong_tin_su_kien', $args);
+}
+
+function create_thong_tin_su_kien_taxonomy() {
+    $labels = array(
+        'name'              => _x('Danh mục', 'taxonomy general name', 'textdomain'),
+        'singular_name'     => _x('Danh mục', 'taxonomy singular name', 'textdomain'),
+        'search_items'      => __('Tìm kiếm Danh mục', 'textdomain'),
+        'all_items'         => __('Tất cả Danh mục', 'textdomain'),
+        'parent_item'       => __('Danh mục cha', 'textdomain'),
+        'parent_item_colon' => __('Danh mục cha:', 'textdomain'),
+        'edit_item'         => __('Chỉnh sửa Danh mục', 'textdomain'),
+        'update_item'       => __('Cập nhật Danh mục', 'textdomain'),
+        'add_new_item'      => __('Thêm mới Danh mục', 'textdomain'),
+        'new_item_name'     => __('Tên Danh mục mới', 'textdomain'),
+        'menu_name'         => __('Danh mục', 'textdomain'),
+    );
+
+    $args = array(
+        'hierarchical'      => true,
+        'labels'            => $labels,
+        'show_ui'           => true,
+        'show_admin_column' => true,
+        'query_var'         => true,
+        'rewrite'           => array('slug' => 'danh-muc-thong-tin-su-kien'),
+    );
+
+    register_taxonomy('danh_muc_thong_tin_su_kien', array('thong_tin_su_kien'), $args);
+}
+
+add_action('init', 'create_thong_tin_su_kien_post_type');
+add_action('init', 'create_thong_tin_su_kien_taxonomy');
+
 
 require get_template_directory() . '/inc/plugins/class-tgm-plugin-activation.php';
 get_template_part( '/inc/functions-helper' );

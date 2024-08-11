@@ -49,7 +49,7 @@ if ( defined('NERF_DEMO_MODE') && NERF_DEMO_MODE ) {
 				</header><!-- .page-header -->
 
 				<?php
-				if ( empty($sidebar_configs['left']) && empty($sidebar_configs['right']) && nerf_get_config('blog_archive_top_categories', false) )	{
+				if ( empty($sidebar_configs['left']) && empty($sidebar_configs['right']) && nerf_get_config('blog_archive_top_categories', false) && !has_term('', 'danh_muc_thong_tin_su_kien'))	{
 				?>
 					<div class="blog-header-categories">
 						<?php

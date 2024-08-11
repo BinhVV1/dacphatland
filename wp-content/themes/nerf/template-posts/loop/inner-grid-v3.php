@@ -19,7 +19,7 @@ $thumb = nerf_display_post_thumb($thumbsize);
              </div>
             <?php
         } ?>
-        <div style="display:flex;justify-content: space-between;align-items: center;">
+        <div style="display:<?php echo has_term('', 'danh_muc_thong_tin_su_kien') ? 'none' : 'flex' ?>;justify-content: space-between;align-items: center;">
             <div style="font-weight:bold">DTMB: <?php echo get_field('dien-tich-mat-bang'); ?>m²</div>
             <div style="font-weight:bold">DTSD: <?php echo get_field('dien-tich-su-dung'); ?>m²</div>
         </div>

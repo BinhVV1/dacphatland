@@ -41,6 +41,15 @@
   }
 }
 
+.danhmuc_sukien, .no_dm_sk {
+  background-image:url('https://dacphatland.com.vn/wp-content/uploads/2023/03/breadcrumb.jpg');
+	z-index: 1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 0 !important;
+	padding: 50px 0 1.875rem !important;
+}
 @-webkit-keyframes fl-x {
   0% {
     -webkit-transform: translateX(-20px);
@@ -84,6 +93,10 @@
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
   }
+}
+
+body[data-elementor-device-mode="desktop"] sr7-module{
+	top: 90px;
 }
 
 @keyframes fl-y {
@@ -2922,7 +2935,7 @@ body.fix-header #apus-header {
 }
 
 .header_transparent:not(.fix-header) .no_keep_header section.elementor-element:not(.no-transparent) {
-  background: transparent !important;
+/*   background: transparent !important; */
 }
 
 .header_transparent .header-mobile {
@@ -5492,7 +5505,6 @@ blockquote p:last-child {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(25, 29, 35, 0.3);
   top: 0;
   left: 0;
 }

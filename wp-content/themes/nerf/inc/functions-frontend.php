@@ -280,7 +280,9 @@ if ( ! function_exists( 'nerf_render_breadcrumbs' ) ) {
 			$classes[] = 'show-title';
 		}
 
-		echo '<section id="apus-breadscrumb" class="breadcrumb-page apus-breadscrumb '.implode(' ', $classes).'"'.$estyle.'><div class="'.$full_width.'"><div class="wrapper-breads">
+		$has_term_class = has_term('', 'danh_muc_thong_tin_su_kien') ? 'has_bg danhmuc_sukien ' : 'no_dm_sk ';
+
+		echo '<section id="apus-breadscrumb" class="breadcrumb-page apus-breadscrumb '. $has_term_class .' '. implode(' ', $classes).'"'.$estyle.'><div class="'.$full_width.'"><div class="wrapper-breads">
 		<div class="wrapper-breads-inner">';
 			if ( $show_title ) {
 				$title = nerf_get_page_title();
