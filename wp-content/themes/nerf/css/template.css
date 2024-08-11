@@ -12098,12 +12098,24 @@ ol.wp-block-latest-comments a {
   border-color: #bababa;
 }
 
+body[data-elementor-device-mode="desktop"] .list-search {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  display: grid; gap:20px
+}
+
+body[data-elementor-device-mode="mobile"] .list-search {
+  display: grid; gap:20px
+}
+body[data-elementor-device-mode="mobile"] .title_footer {
+  font-size: 14.5px;
+}
 .wp-block-search .wp-block-search__button {
+  width: 100px;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
   height: 50px;
-  padding: 0 20px;
+  padding: 0;
   border: 0;
   background: var(--nerf-theme-color);
   color: #fff;

@@ -205,7 +205,7 @@ function nerf_get_fonts_url() {
  * @since Nerf 1.0
  */
 function nerf_enqueue_styles() {
-	$theme_version = '1.1.9';
+	$theme_version = '1.1.11';
 
 	// load font
 	wp_enqueue_style( 'nerf-theme-fonts', nerf_get_fonts_url(), array(), null );
@@ -254,7 +254,7 @@ function nerf_enqueue_styles() {
 add_action( 'wp_enqueue_scripts', 'nerf_enqueue_styles', 1000 );
 
 function nerf_admin_enqueue_styles() {
-	$theme_version = '1.1.9';
+	$theme_version = '1.1.11';
 	//load font flaticon
 	wp_enqueue_style( 'flaticon', get_template_directory_uri() . '/css/flaticon.css', array(), $theme_version );
 }
@@ -266,7 +266,7 @@ add_action( 'admin_enqueue_scripts', 'nerf_admin_enqueue_styles', 1000 );
  * @since Nerf 1.0
  */
 function nerf_enqueue_scripts() {
-	$theme_version = '1.1.9';
+	$theme_version = '1.1.11';
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
